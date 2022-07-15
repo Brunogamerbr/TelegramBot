@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "cpu-stat": "2.0.1",
+    "firebase": "8.8.0",
+    "gn-api-sdk-node": "2.0.8",
+    "node-fetch": "2.6.7",
+    "node-telegram-bot-api": "0.57.0",
+    "pixapi": "1.1.8",
+    "quick.db": "7.1.3"
+  }
+}

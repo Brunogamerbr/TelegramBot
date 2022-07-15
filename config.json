@@ -1,0 +1,22 @@
+{
+    "valor_1": "1.00",
+    "valor_2": "2.00",
+    "valor_3": "3.00",
+
+    "usuario_id": "1880295388",
+    "grupo_id": "-1001635194016",
+    "token": "5159314801:AAGfUBogzAmncU8RYj0u_8uDYCLxDW-NwnY",
+
+    "url_suporte": "https://t.me/BrunoVPN",
+    "dowload": "https://play.google.com/store/apps/details?id=cloudvpnbeta.net",
+    "server_ip": "140.238.182.154",
+
+    "client_id": "Client_Id_c25883e9b1805a5e5229333557e80b1aee85526f",
+    "client_secret": "Client_Secret_1ed00f252b06fc72ae55e541962d6b62b6910e97",
+    "chave_pix": "8435fc2f-8ff1-43c4-906d-eaadce22bc42",
+    "cpf": "08339655574",
+    "nome": "Edmilson Araujo Dos Santos",
+
+    "apy_key": "AIzaSyA5ma-0ybzMzvNH6YLZ17VKPv0OUMG6HbU",
+    "database_url": "https://watsapp-bot-56552-default-rtdb.firebaseio.com"
+}
