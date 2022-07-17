@@ -17,6 +17,7 @@ module.exports = async (bot,msg,PixApi) => {
           [{ text: "Comprar acesso VPN", callback_data: "1" }],
           [{ text: "Criar teste Gratis", callback_data: "2" }],
           [{ text: "Checar Validade", callback_data: "check" }],
+          [{ text: "Area do Revendedor", callback_data: "area_" }],
           [{ text: "Suporte ao Cliente", url: config.url_suporte}],
           [{ text: "Sair do Menu", callback_data: "4" }],
         ],
@@ -148,6 +149,11 @@ if(action == "2") {
 if(action == "4_") {
   bot.deleteMessage(msg.chat.id, msg.message_id)
   menu()
+}
+
+if(action == "area_") {
+  let ctx = msg;
+  require("../revenda/menu.js")(bot,author,ctx);
 }
 
 if(action == "4") {

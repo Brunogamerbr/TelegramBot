@@ -103,7 +103,7 @@ PixApi.Net.on("success", async (fatura) => {
   require("./utils/payment.js")(bot,fatura);
 });
 
-bot.on("message", async(message,match) => {
+bot.on("message", async(message) => {
   if(cmd.commands.includes(message.text)) return;
   let opts = {
     parse_mode: "html"
